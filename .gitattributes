@@ -1,0 +1,16 @@
+# Line-ending rules for this repository.
+# Committed rules override each contributor's core.autocrlf setting.
+
+# Default: Git detects text files and stores them with LF in the repository.
+* text=auto
+
+# Kibana exports and Linux files: always LF, even when checked out on Windows.
+*.ndjson text eol=lf
+*.sh text eol=lf
+*.conf text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Images: binary, never converted.
+*.png binary
+*.jpg binary
