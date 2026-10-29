@@ -6,6 +6,7 @@ A home lab that mirrors a small corporate network: an Active Directory domain, a
 
 - `detections/` - two custom detection rules (Kibana export, NDJSON)
 - `dashboards/` - a process-creation visualisation and its data view (Kibana export, NDJSON)
+- `docs/` - build guides for each VM (DC01, CLIENT01, ELASTIC01) and incident reports with root causes and fixes
 
 ## Architecture
 
